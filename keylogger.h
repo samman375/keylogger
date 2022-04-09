@@ -12,7 +12,7 @@
 FILE *logfile = NULL;
 const char *logfileLocation = "/Users/samthorley/cs6841/logger/keylogger/.keystroke.log";
 
-CGEventRef CGEventCallback(CGEventTapProxy, CGEventType, CGEventRef, void*);
+CGEventRef CGEventCallback(CGEventTapProxy, CGEventType, CGEventRef, void *);
 const char *convertKeyCode(int, bool, bool);
 
 #endif
