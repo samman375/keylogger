@@ -3,7 +3,7 @@ CFLAGS=-framework ApplicationServices -framework Carbon
 SOURCES=keylogger.c
 EXECUTABLE=keylogger
 PLIST=keylogger.plist
-INSTALLDIR=/usr/local/bin
+INSTALLDIR=/Users/samthorley/cs6841/logger/macos-installer-builder/macOS-x64/application
 PLISTDIR=/Library/LaunchDaemons
 PLISTFULL=$(PLISTDIR)/$(PLIST)
 
